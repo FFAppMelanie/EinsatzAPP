@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MapFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -12,5 +13,13 @@
         android:text="Karte/Einsätze"
         android:layout_gravity="center"
         android:textSize="20sp"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/bottom_navigation"
+        app:menu="@menu/bottom_navigation"
+        android:layout_gravity="bottom"/>
+
 
 </FrameLayout>
