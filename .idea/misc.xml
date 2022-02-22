@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/HTL Neufelden/Maturaprojekt/APP/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
+        <entry key="..\:/HTL Neufelden/Maturaprojekt/APP/app/src/main/res/layout/fragment_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/HTL Neufelden/Maturaprojekt/APP/app/src/main/res/layout/fragment_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/HTL Neufelden/Maturaprojekt/APP/app/src/main/res/layout/header_navigation_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/HTL Neufelden/Maturaprojekt/APP/app/src/main/res/menu/bottom_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/HTL Neufelden/Maturaprojekt/APP/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/HTL Neufelden/Maturaprojekt/APP/app/src/main/res/menu/navigation_drawer.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

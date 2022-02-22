@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/map">
 
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.einsatzapp.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/aboutUS"
+        android:name="com.example.einsatzapp.AboutUsFragment"
+        android:label="@string/aboutUs"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.example.einsatzapp.MapFragment"
+        android:label="@string/map"
+        tools:layout="@layout/fragment_map" />
 </navigation>

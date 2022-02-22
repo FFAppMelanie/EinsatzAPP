@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="Karte/Einsätze" />
+
+
+        <item
+            android:id="@+id/apps"
+
+            android:title="APPs">
+            <menu>
+                <group android:checkableBehavior="none">
+                    <item
+                        android:id="@+id/hazardAPP"
+                        android:icon="@drawable/ic_baseline_launch_24"
+                        android:title="@string/dangerApp" />
+                    <item
+                        android:id="@+id/carRescueApp"
+                        android:icon="@drawable/ic_baseline_launch_24"
+                        android:title="@string/carApp" />
+                    <item
+                        android:id="@+id/missionInfoApp"
+                        android:icon="@drawable/ic_baseline_launch_24"
+                        android:title="@string/missionInfoApp" />
+                </group>
+            </menu>
+        </item>
+
+
+        <item
+            android:id="@+id/general"
+            android:title="Allgemein">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/settings"
+                        android:icon="@drawable/ic_baseline_settings_24"
+                        android:title="Einstellungen" />
+
+                    <item
+                        android:id="@+id/aboutUS"
+                        android:icon="@drawable/ic_baseline_emoji_people_24"
+                        android:title="Über uns" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
