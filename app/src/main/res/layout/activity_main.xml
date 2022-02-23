@@ -44,6 +44,7 @@
 
 
 
+
         </LinearLayout>
 
         <fragment
@@ -59,6 +60,7 @@
 
 
 
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
@@ -68,5 +70,7 @@
         app:menu="@menu/navigation_drawer"
         app:headerLayout="@layout/header_navigation_drawer"
         android:layout_gravity="start" />
+
+
 
 </androidx.drawerlayout.widget.DrawerLayout>
